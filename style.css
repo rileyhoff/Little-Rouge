@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;
     color: inherit;
 }
+
+.active {
+    color: rgb(77, 114, 182);
+}
+
 /*about*/
 .title{
     font-family: bc-alphapipe, sans-serif;
@@ -110,6 +115,9 @@ footer{
     grid-row: 42;
     padding: 0 0 5vh 2vw;
 }
+.contact footer{
+    grid-row: 22;
+}
 footer p {
     /* margin: no; */
 }
@@ -127,6 +135,21 @@ footer > div{
 footer div.col2{
     margin-top: 1.5em;
 }
+/* visit */
+
+#doorVid{
+    width: 100%;
+    height: 33.33vh;
+    grid-column: 5/9;
+    grid-row: 6/14;
+}
+.visit .videoFilter{
+grid-column: 5/9;
+grid-row: 6/13;
+width: 100%;
+height: 33.33vh;
+}
+
 /* contact */
 h2{
     font-size: 4em;
