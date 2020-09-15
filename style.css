@@ -85,7 +85,7 @@ img{
     height: 100%;
     background-color:#eee;
     grid-column: 1/13;
-    grid-row: 21/42;
+    grid-row: 21/41;
     z-index: -1000;
 }
 #coffeeVid{
@@ -113,7 +113,7 @@ footer{
     display: block;
     width: 100%;
     grid-column: 1/12;
-    grid-row: 42;
+    grid-row: 41;
     padding: 0 0 5vh 2vw;
 }
 .contact footer{
@@ -214,7 +214,7 @@ height: 33.33vh;
 }
 .map{
     position: relative;
-    grid-row: 21/42;
+    grid-row: 21/41;
     grid-column: 1/13;
     height: 100%;
     width: 100%;
